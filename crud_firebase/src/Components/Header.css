@@ -1,0 +1,40 @@
+.header{
+    overflow: hidden;
+    background-color: wheat;
+}
+.header p{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+.header p.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: aqua;
+}
+.header p:hover{
+    background-color: wheat;
+    color: grey;
+}
+.header p:active{
+    background-color: rgb(137, 168, 225);
+    color: wheat;
+}
+.header-right{
+    float: right;
+}
+@media screen and (max-width:500px){
+    .header p{
+        float: none;
+        display: black;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+}
